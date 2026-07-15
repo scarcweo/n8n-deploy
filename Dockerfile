@@ -7,4 +7,4 @@ ENV N8N_RUNNER_MODE=external
 
 EXPOSE 5678
 
-CMD ["node", "packages/cli/bin/n8n"]
+CMD ["n8n", "start"]
