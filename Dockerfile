@@ -7,4 +7,4 @@ ENV N8N_RUNNER_MODE=external
 
 EXPOSE 5678
 
-CMD ["n8n", "start"]
+CMD ["/usr/local/bin/n8n"]
