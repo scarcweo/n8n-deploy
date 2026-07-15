@@ -6,5 +6,4 @@ ENV N8N_PROTOCOL=http
 
 EXPOSE 5678
 
-# Находим и запускаем точку входа
-CMD ["sh", "-c", "node $(find /home/node -name 'index.js' | head -n 1)"]
+CMD ["node", "node_modules/n8n/dist/index.js"]
